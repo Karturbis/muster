@@ -42,7 +42,7 @@ fn calcseven(reihen_zahl:u128) {
 
     println!("LOG: reihen_zahl = {}", reihen_zahl);
 
-    let mut x:u128 = reihen_zahl%7;
+    let x:u128 = reihen_zahl%7;
     println!("LOG: x = {}", x);
 
     let y:u128 = (reihen_zahl-x)/7;
